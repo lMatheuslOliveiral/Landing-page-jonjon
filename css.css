@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --dark-blue1: #14144b;
+    --dark-blue2: #0f0f3d;
+    --dark-blue3: #0a0a30;
+    --dark-blue4: #050522;
+    --dark-blue5: #000014;
+
+    --white: #ebebeb;
+    --effect: #4d4d91;
+}
+
+body {
+    background-color: var(--dark-blue2);
+}
+
+header {
+    background-color: var(--dark-blue3);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: .1rem;
+    min-height: 50px;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 100px;
+
+}
+
+.imglogo {
+    width: 50px;
+
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.menu {
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    padding: .8rem;
+
+}
+
+.menu:hover{
+    transition: .2s;
+    color: var(--effect);
+    text-decoration: overline;
+
+}
+
+.search-area{
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.loupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .6rem;
+
+    color: var(--white);
+
+}
+
+.loupe:hover{
+    transition: .2s;
+    color: var(--effect);
+
+}
+
+main {
+    display: flex;
+    margin: 100px;
+}
+
+.section1{
+    display: flex;
+    
+}
+
+.box-img{
+    
+}
+
+.car{
+    width: 500px;
+    height: 400px;
+    object-fit: none;
+
+}
+
+
