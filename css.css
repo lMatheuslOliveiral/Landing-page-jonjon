@@ -88,23 +88,38 @@ nav {
 
 main {
     display: flex;
-    margin: 100px;
+    margin: 50px;
 }
 
 .section1{
     display: flex;
+    justify-content: space-evenly;
     
 }
 
-.box-img{
-    
+.box-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .car{
     width: 500px;
-    height: 400px;
+    height: 480px;
     object-fit: none;
+    
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 30px;
+    
 
 }
+
+
 
 
