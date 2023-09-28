@@ -16,6 +16,7 @@
 
 body {
     background-color: var(--dark-blue2);
+    
 }
 
 header {
@@ -89,6 +90,8 @@ nav {
 main {
     display: flex;
     margin: 50px;
+    max-width: 100%;
+    padding: 20px;
 }
 
 .section1{
@@ -107,17 +110,25 @@ main {
     width: 500px;
     height: 480px;
     object-fit: none;
+    max-width: 100%;
+    padding: 20px;
+
+    min-width: 300px;
     
 }
 
 .box-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left: 30px;
-    
+    text-align: left;
+    margin-left: 2rem;
+    width: 70%;
+      
+}
 
+.box-text, p {
+    text-align: justify;
+    width: 500px;
 }
 
 
