@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--dark-blue2);
+    background-color: var(--dark-blue4);
     
 }
 
@@ -37,11 +37,13 @@ header {
 }
 
 .imglogo {
+
     width: 50px;
 
 }
 
 nav {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +52,7 @@ nav {
 }
 
 .menu {
+
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
@@ -58,6 +61,7 @@ nav {
 }
 
 .menu:hover{
+
     transition: .2s;
     color: var(--effect);
     text-decoration: overline;
@@ -65,11 +69,13 @@ nav {
 }
 
 .search-area{
+
     cursor: pointer;
     margin-right: 100px;
 }
 
 .loupe {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,63 +87,81 @@ nav {
 }
 
 .loupe:hover{
+
     transition: .2s;
     color: var(--effect);
 
 }
 
 main {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: auto;
+    margin-top: 15vh;
     max-width: 100%;
     padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .section1{
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
 }
 
 .box-section{
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .car{
+
     width: 400px;
     height: 380px;
     object-fit: cover;
-    padding-left: 60px;
+    flex: 1;
+    
 
     min-width: 300px;
     
 }
 
 .box-text{
+
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 5rem;
+
+    
       
 }
 
 .box-text h1 {
+
     font-size: 30px; 
 
 } 
 
 .box-text, p {
+    
     text-align: justify;
     width: 30vw;
+    flex: 1;
     color: var(--white);
     font-size: 18px;
 }
