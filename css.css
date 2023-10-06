@@ -99,7 +99,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-    margin-top: 15vh;
+    
     max-width: 100%;
     padding: 20px;
 
@@ -116,6 +116,8 @@ main {
     justify-content: center;
     align-items: center;
 
+    margin-top: 15vh;
+
 }
 
 .box-section{
@@ -125,6 +127,7 @@ main {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
 
 }
 
@@ -143,15 +146,15 @@ main {
 .box-text{
 
     display: flex;
+    flex: 1;
     flex-direction: column;
     text-align: left;
-    margin-left: 5rem;
-
+    
     
       
 }
 
-.box-text h1 {
+.box-text, h1 {
 
     font-size: 30px; 
 
