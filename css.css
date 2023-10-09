@@ -169,6 +169,91 @@ main {
     
 }
 
+@media (max-width: 850px) {
+
+    body {
+        background-color: black;
+        
+    }
+    
+    main {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        
+        max-width: 100%;
+        padding: 20px;
+    
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .section1{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 15vh;
+    
+    }
+    
+    .box-section{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    
+    .car{
+    
+        max-width: 400px;
+        min-width: 350px;
+        height: 380px;
+        object-fit: cover;
+        flex: 1;
+        
+    }
+    
+    .box-text{
+    
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        text-align: left;
+        margin: 0 80px; 
+          
+    }
+    
+    .box-text, h1 {
+    
+        font-size: 30px; 
+    
+    } 
+    
+    .box-text, p {
+        
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        width: 55vw;
+        flex: 1;
+        color: var(--white);
+        font-size: 18px;
+        
+    }
+
+
+
+}
 
 
 
