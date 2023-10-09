@@ -26,11 +26,12 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; 
-    padding: .1rem;
+    padding: 5px;
     min-height: 30px;
 }
 
 .logo {
+
     height: 100%;
     margin-left: 100px;
 
@@ -101,7 +102,7 @@ main {
     margin: auto;
     
     max-width: 100%;
-    padding: 20px;
+    
 
     align-items: center;
     justify-content: center;
@@ -172,7 +173,7 @@ main {
 @media (max-width: 850px) {
 
     body {
-        background-color: black;
+        background-color: var(--dark-blue4);
         
     }
     
@@ -229,7 +230,8 @@ main {
         flex: 1;
         flex-direction: column;
         text-align: left;
-        margin: 0 80px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
           
     }
     
@@ -254,6 +256,27 @@ main {
 
 
 }
+
+@media (max-width: 775px) {
+    
+    .logo {
+    
+        height: 100%;
+        margin-left: 0px;
+    
+    }
+      
+
+    .search-area{
+    
+        cursor: pointer;
+        margin-right: 0px;
+    }
+    
+
+
+}
+
 
 
 
